@@ -20,4 +20,17 @@ Rails.application.routes.draw do
   patch "/films/:id" => "films#update"
   delete "/films/:id" => "films#destroy"
 
+  # Genre routes
+  get "/genres" => "genres#index"
+  get "/genres/:id" => "genres#show"
+  post "/genres" => "genres#create"
+  patch "/genres/:id" => "genres#update"
+  delete "/genres/:id" => "genres#destroy"
+
+  # FilmGenre routes
+  get "/film_genres" => "film_genres#index"
+  get "/film_genres/:id" => "film_genres#show"
+  post "/film_genres" => "film_genres#create"
+  patch "/film_genres/:id" => "film_genres#update"
+  delete "/film_genres/:id" => "film_genres#destroy"
 end
