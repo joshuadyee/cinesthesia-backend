@@ -41,4 +41,10 @@ Rails.application.routes.draw do
   patch "/directors/:id" => "directors#update"
   delete "/directors/:id" => "directors#destroy"
 
+  # Cast routes
+  get "/cast" => "casts#index"
+  get "/cast/:id" => "casts#show"
+  post "/cast" => "casts#create"
+  patch "/cast/:id" => "casts#update"
+  delete "/cast/:id" => "casts#destroy"
 end

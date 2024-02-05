@@ -146,3 +146,25 @@
 # Director.create!(name: "Sean Durkin")
 
 
+#     # Cast Data
+
+# Cast.create!(name: "Cillian Murphy")
+# Cast.create!(name: "Robert Downey Jr.")
+# Cast.create!(name: "Emily Blunt")
+# Cast.create!(name: "Florence Pugh")
+# Cast.create!(name: "Matt Damon")
+# Cast.create!(name: "Matthew McConnaughey")
+# Cast.create!(name: "Anne Hathaway")
+# Cast.create!(name: "Jessica Chastain")
+# Cast.create!(name: "Casey Affleck")
+# Cast.create!(name: "Michael Caine")
+# Cast.create!(name: "Topher Grace")
+# Cast.create!(name: "Clive Owen")
+# Cast.create!(name: "Julianne Moore")
+# Cast.create!(name: "Chiwetel Ejiofor")
+# Cast.create!(name: "Zac Efron")
+# Cast.create!(name: "Jeremy Allen White")
+# Cast.create!(name: "Harris Dickinson")
+# Cast.create!(name: "Emma Stone")
+# Cast.create!(name: "Mark Ruffalo")
+# Cast.create!(name: "Willem Dafoe")
