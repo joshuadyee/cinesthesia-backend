@@ -168,3 +168,28 @@
 # Cast.create!(name: "Emma Stone")
 # Cast.create!(name: "Mark Ruffalo")
 # Cast.create!(name: "Willem Dafoe")
+
+
+#     # FilmCast Data
+
+# FilmCast.create!(film_id: 8, cast_id: 1)
+# FilmCast.create!(film_id: 8, cast_id: 2)
+# FilmCast.create!(film_id: 8, cast_id: 3)
+# FilmCast.create!(film_id: 8, cast_id: 4)
+# FilmCast.create!(film_id: 8, cast_id: 5)
+# FilmCast.create!(film_id: 8, cast_id: 9)
+# FilmCast.create!(film_id: 1, cast_id: 6)
+# FilmCast.create!(film_id: 1, cast_id: 7)
+# FilmCast.create!(film_id: 1, cast_id: 8)
+# FilmCast.create!(film_id: 1, cast_id: 9)
+# FilmCast.create!(film_id: 1, cast_id: 10)
+# FilmCast.create!(film_id: 1, cast_id: 11)
+# FilmCast.create!(film_id: 2, cast_id: 12)
+# FilmCast.create!(film_id: 2, cast_id: 13)
+# FilmCast.create!(film_id: 2, cast_id: 14)
+# FilmCast.create!(film_id: 5, cast_id: 15)
+# FilmCast.create!(film_id: 5, cast_id: 16)
+# FilmCast.create!(film_id: 5, cast_id: 17)
+# FilmCast.create!(film_id: 7, cast_id: 18)
+# FilmCast.create!(film_id: 7, cast_id: 19)
+# FilmCast.create!(film_id: 7, cast_id: 20)

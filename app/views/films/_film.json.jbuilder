@@ -9,3 +9,6 @@ json.genres film.genres.map do |genre|
   json.genre genre.genre
 end
 json.director_id film.director_id
+json.casts film.casts.map do |cast|
+  json.name cast.name
+end
