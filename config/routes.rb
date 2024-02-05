@@ -54,4 +54,11 @@ Rails.application.routes.draw do
   post "/film_cast" => "film_casts#create"
   patch "/film_cast/:id" => "film_casts#update"
   delete "/film_cast/:id" => "film_casts#destroy"
+
+  # FilmUser routes
+  get "/film_users" => "film_users#index"
+  get "/film_users/:id" => "film_users#show"
+  post "/film_users" => "film_users#create"
+  patch "/film_users/:id" => "film_users#update"
+  delete "/film_users/:id" => "film_users#destroy"
 end

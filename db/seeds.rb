@@ -193,3 +193,63 @@
 # FilmCast.create!(film_id: 7, cast_id: 18)
 # FilmCast.create!(film_id: 7, cast_id: 19)
 # FilmCast.create!(film_id: 7, cast_id: 20)
+
+
+#     # FilmUser Data
+
+# FilmUser.create!(
+#   user_id: 5,
+#   film_id: 1,
+#   rating: 10,
+#   review: "Favorite movie of all time",
+#   watched: true,
+# )
+# FilmUser.create!(
+#   user_id: 5,
+#   film_id: 8,
+#   rating: 9.5,
+#   review: "Best film of 2023",
+#   watched: true,
+# )
+# FilmUser.create!(
+#   user_id: 6,
+#   film_id: 2,
+#   rating: 9.1,
+#   review: "Loved it!",
+#   watched: true,
+# )
+# FilmUser.create!(
+#   user_id: 6,
+#   film_id: 6,
+#   rating: 8.5,
+#   review: "Very heavy movie",
+#   watched: true,
+# )
+# FilmUser.create!(
+#   user_id: 7,
+#   film_id: 4,
+#   rating: 9.8,
+#   review: "The film that got me into arthouse",
+#   watched: true,
+# )
+# FilmUser.create!(
+#   user_id: 7,
+#   film_id: 3,
+#   rating: 10,
+#   review: "The score and cinematography are amazing",
+#   watched: true,
+# )
+# FilmUser.create!(
+#   user_id: 8,
+#   film_id: 5,
+#   rating: 8.0,
+#   review: "Very solid",
+#   watched: true,
+# )
+# FilmUser.create!(
+#   user_id: 8,
+#   film_id: 7,
+#   rating: 8.2,
+#   review: "Beautifully shot and weird",
+#   watched: true,
+# )
