@@ -33,4 +33,12 @@ Rails.application.routes.draw do
   post "/film_genres" => "film_genres#create"
   patch "/film_genres/:id" => "film_genres#update"
   delete "/film_genres/:id" => "film_genres#destroy"
+
+  # Director routes
+  get "/directors" => "directors#index"
+  get "/directors/:id" => "directors#show"
+  post "/directors" => "directors#create"
+  patch "/directors/:id" => "directors#update"
+  delete "/directors/:id" => "directors#destroy"
+
 end

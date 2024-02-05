@@ -17,6 +17,7 @@ class FilmsController < ApplicationController
       logline: params[:logline],
       film_poster: params[:film_poster],
       mpa_rating: params[:mpa_rating],
+      director_id: params[:director_id] 
     )
     if @film.save!
       render :show
@@ -33,6 +34,7 @@ class FilmsController < ApplicationController
     @film.logline = params[:logline] || @film.logline
     @film.film_poster = params[:film_poster] || @film.film_poster
     @film.mpa_rating = params[:mpa_rating] || @film.mpa_rating
+    @film.director_id = params[:director_id] || @film.director_id
 
     if @film.save!
       render :show

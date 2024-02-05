@@ -8,3 +8,4 @@ json.mpa_rating film.mpa_rating
 json.genres film.genres.map do |genre|
   json.genre genre.genre
 end
+json.director_id film.director_id
