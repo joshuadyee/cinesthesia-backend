@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  # before_action :authenticate_user
+  before_action :authenticate_user
 
   def index
     @users = User.all
@@ -16,7 +16,6 @@ class UsersController < ApplicationController
       email: params[:email],
       username: params[:username],
       bio: params[:bio],
-      profile_pic: params[:profile_pic],
       password: params[:password],
       password_confirmation: params[:password_confirmation]
     )
@@ -32,7 +31,6 @@ class UsersController < ApplicationController
     @user.email = params[:email] || @user.email
     @user.username = params[:username] || @user.username
     @user.bio = params[:bio] || @user.bio
-    @user.profile_pic = params[:profile_pic] || @user.profile_pic
     @user.password = params[:password] || @user.password
     @user.password_confirmation = params[:password_confirmation] || @user.password_confirmation
 
