@@ -1,4 +1,6 @@
 class DirectorsController < ApplicationController
+  before_action :authenticate_user
+  
   def index
     @directors = Director.all
     render :index

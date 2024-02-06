@@ -1,4 +1,6 @@
 class FilmUsersController < ApplicationController
+  before_action :authenticate_user
+
   def index
     @film_users = FilmUser.all
     render :index
@@ -11,7 +13,7 @@ class FilmUsersController < ApplicationController
 
   def create
     @film_user = FilmUser.new(
-      user_id: params[:user_id],
+      user_id: current_user.id,
       film_id: params[:film_id],
       rating: params[:rating],
       review: params[:review],
@@ -28,7 +30,11 @@ class FilmUsersController < ApplicationController
 
   def update
     @film_user = FilmUser.find_by(id: params[:id])
-    @film_user.user_id = params[:user_id] || @film_user.user_id
+    
+    if current_user.id != @film_user.user_id
+      return render json: {error: "Not authorized"}, status: :unauthorized
+    end
+      # @film_user.user_id = params[:user_id] || @film_user.user_id
     @film_user.film_id = params[:film_id] || @film_user.film_id
     @film_user.rating = params[:rating] || @film_user.rating
     @film_user.review = params[:review] || @film_user.review
@@ -37,7 +43,7 @@ class FilmUsersController < ApplicationController
     if @film_user.save!
       render :show
     else
-      render json: {errors: @film_user.errors.full_messages}, status: :unprocessable_entity
+      render json: {errors: "You must be logged in to the correct account"}, status: :unprocessable_entity
     end
   end
 

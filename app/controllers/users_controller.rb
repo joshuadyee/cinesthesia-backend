@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  before_action :authenticate_user
+
   def index
     @users = User.all
     render :index
@@ -10,17 +12,17 @@ class UsersController < ApplicationController
   end
 
   def create
-    user = User.new(
+    @user = User.new(
       email: params[:email],
       username: params[:username],
       bio: params[:bio],
       password: params[:password],
       password_confirmation: params[:password_confirmation]
     )
-    if user.save
+    if @user.save
       render json: { message: "User created successfully" }, status: :created
     else
-      render json: { errors: user.errors.full_messages }, status: :bad_request
+      render json: { errors: @user.errors.full_messages }, status: :bad_request
     end
   end
 
@@ -31,11 +33,22 @@ class UsersController < ApplicationController
     @user.bio = params[:bio] || @user.bio
     @user.password = params[:password] || @user.password
     @user.password_confirmation = params[:password_confirmation] || @user.password_confirmation
+
+    if current_user.id == @user.id
+      @user.save
+      render json: { message: "User updated successfully" }, status: :created
+    else
+      render json: { errors: @user.errors.full_messages }, status: :bad_request
+    end
   end
 
   def destroy
     @user = User.find_by(id: params[:id])
-    @user.destroy
-    render json: {message: "User successfully deleted"}
+    if current_user.id == @user.id
+      @user.destroy
+      render json: {message: "User successfully deleted"}
+    else
+      render json: {message: "Please log in to the correct account"}
+    end
   end
 end

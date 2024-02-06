@@ -1,4 +1,6 @@
 class FilmCastsController < ApplicationController
+  before_action :authenticate_user
+
   def index
     @film_casts = FilmCast.all
     render :index

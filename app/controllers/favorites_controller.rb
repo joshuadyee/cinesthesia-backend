@@ -33,16 +33,21 @@ class FavoritesController < ApplicationController
     @favorite = Favorite.find_by(id: params[:id])
     @favorite.film_id = params[:film_id] || @favorite.film_id
 
-    if @favorite.save!
+    if current_user.id == @favorite.user_id
+      @favorite.save!
       render :show
     else
-      render json: {errors: @favorite.errors.full_messages}, status: :unprocessable_entity
+      render json: {errors: "Please log in with the correct account"}, status: :unprocessable_entity
     end
   end
 
   def destroy
     @favorite = Favorite.find_by(id: params[:id])
-    @favorite.destroy
-    render json: {message: "Favorite entry successfully removed"}
+    if current_user.id == @favorite.user_id
+      @favorite.destroy
+      render json: {message: "Favorite entry successfully removed"}
+    else
+      render json: {message: "Please log in with the correct account"}, status: :bad_request
+    end
   end
 end

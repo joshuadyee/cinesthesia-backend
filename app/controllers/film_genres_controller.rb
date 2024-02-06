@@ -1,4 +1,6 @@
 class FilmGenresController < ApplicationController
+  before_action :authenticate_user
+
   def index
     @film_genres = FilmGenre.all
     render :index

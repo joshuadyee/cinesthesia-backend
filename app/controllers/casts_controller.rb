@@ -1,4 +1,6 @@
 class CastsController < ApplicationController
+  before_action :authenticate_user
+  
   def index
     @casts = Cast.all
     render :index
