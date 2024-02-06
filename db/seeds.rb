@@ -253,3 +253,18 @@
 #   review: "Beautifully shot and weird",
 #   watched: true,
 # )
+
+
+
+#     # Favorites Data
+
+# Favorite.create!(user_id: 5, film_id: 1)
+# Favorite.create!(user_id: 5, film_id: 2)
+# Favorite.create!(user_id: 5, film_id: 3)
+# Favorite.create!(user_id: 5, film_id: 4)
+# Favorite.create!(user_id: 6, film_id: 7)
+# Favorite.create!(user_id: 6, film_id: 9)
+# Favorite.create!(user_id: 7, film_id: 3)
+# Favorite.create!(user_id: 7, film_id: 1)
+# Favorite.create!(user_id: 8, film_id: 8)
+# Favorite.create!(user_id: 8, film_id: 2)

@@ -61,4 +61,11 @@ Rails.application.routes.draw do
   post "/film_users" => "film_users#create"
   patch "/film_users/:id" => "film_users#update"
   delete "/film_users/:id" => "film_users#destroy"
+
+  # Favorite (films) routes
+  get "/favorites" => "favorites#index"
+  get "/favorites/:id" => "favorites#show"
+  post "/favorites" => "favorites#create"
+  patch "/favorites/:id" => "favorites#update"
+  delete "/favorites/:id" => "favorites#destroy"
 end

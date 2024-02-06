@@ -8,5 +8,13 @@ class Film < ApplicationRecord
   has_many :casts, through: :film_casts
   
   has_many :film_users
-  has_many :films, through: :film_users
+  has_many :users, through: :film_users
+
+  has_many :favorites
+  # has_many :users, through: :favorites
+  def favorited_films
+    favorites.map do |favorite|
+      favorite.user
+    end
+  end
 end
