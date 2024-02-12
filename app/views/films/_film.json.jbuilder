@@ -10,5 +10,12 @@ json.genres film.genres.map do |genre|
 end
 json.director film.director.name
 json.casts film.casts.map do |cast|
+  json.id cast.id
   json.name cast.name
+end
+json.film_users film.film_users.map do |film_user|
+  json.user film_user.user.username
+  json.rating film_user.rating
+  json.review film_user.review
+  json.watched film_user.watched
 end

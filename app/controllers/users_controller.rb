@@ -15,6 +15,7 @@ class UsersController < ApplicationController
     @user = User.new(
       email: params[:email],
       username: params[:username],
+      profile_picture: params[:profile_picture],
       bio: params[:bio],
       password: params[:password],
       password_confirmation: params[:password_confirmation]
@@ -30,6 +31,7 @@ class UsersController < ApplicationController
     @user = User.find_by(id: params[:id])
     @user.email = params[:email] || @user.email
     @user.username = params[:username] || @user.username
+    @user.profile_picture = params[:profile_picture] || @user.profile_picture
     @user.bio = params[:bio] || @user.bio
     @user.password = params[:password] || @user.password
     @user.password_confirmation = params[:password_confirmation] || @user.password_confirmation

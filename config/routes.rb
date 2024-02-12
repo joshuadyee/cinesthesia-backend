@@ -6,13 +6,6 @@ Rails.application.routes.draw do
 
   post "/sessions" => "sessions#create"
 
-  # Profile routes
-  get "/profiles" => "profiles#index"
-  get "/profiles/:id" => "profiles#show"
-  post "/profiles" => "profiles#create"
-  patch "/profiles/:id" => "profiles#update"
-  delete "/profiles/:id" => "profiles#destroy"
-
   # Film routes
   get "/films" => "films#index"
   get "/films/:id" => "films#show"

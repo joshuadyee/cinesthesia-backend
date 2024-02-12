@@ -21,10 +21,10 @@ class FilmUsersController < ApplicationController
     if @film_user.rating && @film_user.review
       @film_user.watched = true
     end
-    if @film_user.save!
+    if @film_user.save
       render :show
     else
-      render json: {errors: @film_user.errors.full_messages}, status: :bad_create
+      render json: {errors: @film_user.errors.full_messages}, status: :bad_request
     end
   end
 

@@ -42,7 +42,7 @@ class FavoritesController < ApplicationController
   end
 
   def destroy
-    @favorite = Favorite.find_by(id: params[:id])
+    @favorite = Favorite.find_by(user_id: current_user.id, film_id: params[:id])
     if current_user.id == @favorite.user_id
       @favorite.destroy
       render json: {message: "Favorite entry successfully removed"}
