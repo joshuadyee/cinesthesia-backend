@@ -12,8 +12,8 @@ class FavoritesController < ApplicationController
   end
 
   def create
-    if current_user.favorites.count >= 4
-      render json: {error: "You can only have 4 favorites"}, status: :bad_request
+    if current_user.favorites.count >= 5
+      render json: {error: "You can only have 5 favorites"}, status: :bad_request
       return # Ensures the action exits here and doesn't proceed further
     end
 

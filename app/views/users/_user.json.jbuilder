@@ -12,6 +12,7 @@ json.created_at user.created_at
 json.film_users user.film_users.map do |film_user|
   json.id film_user.id
   json.film film_user.film.title
+  json.film_poster film_user.film.film_poster
   json.rating film_user.rating
   json.review film_user.review
   json.watched film_user.watched

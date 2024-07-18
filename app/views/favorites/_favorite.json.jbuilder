@@ -3,3 +3,4 @@ json.user_id favorite.user_id
 json.user favorite.user.username
 json.film_id favorite.film_id
 json.film favorite.film.title
+json.film_poster favorite.film.film_poster
