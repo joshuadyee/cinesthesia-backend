@@ -268,3 +268,28 @@
 # Favorite.create!(user_id: 7, film_id: 1)
 # Favorite.create!(user_id: 8, film_id: 8)
 # Favorite.create!(user_id: 8, film_id: 2)
+
+
+#    # Backdrop Data
+
+# Film.find_by(title: "Interstellar").update(film_backdrop: "https://image.tmdb.org/t/p/original/xJHokMbljvjADYdit5fK5VQsXEG.jpg")
+# Film.find_by(title: "Children of Men").update(film_backdrop: "https://image.tmdb.org/t/p/original/7cW7zHpDdl9fgaRXI5qAglV247P.jpg")
+# Film.find_by(title: "Sicario").update(film_backdrop: "https://image.tmdb.org/t/p/original/meeileDF37uB8ykIs4iFb713ABO.jpg")
+# Film.find_by(title: "Raw").update(film_backdrop: "https://image.tmdb.org/t/p/original/oPXWnMlpBoVrSeA9ElbnU13G1fV.jpg")
+# Film.find_by(title: "The Iron Claw").update(film_backdrop: "https://image.tmdb.org/t/p/original/lz18EwYiEP69qeAdrRx26WREsh1.jpg")
+# Film.find_by(title: "The Zone of Interest").update(film_backdrop: "https://image.tmdb.org/t/p/original/zA4sQNuZc4WcZtnbwE5xe5sy9jC.jpg")
+# Film.find_by(title: "Poor Things").update(film_backdrop: "https://image.tmdb.org/t/p/original/q2E18ybZg0KkpR8nERH67GOGx33.jpg")
+# Film.find_by(title: "Oppenheimer").update(film_backdrop: "https://image.tmdb.org/t/p/original/grWBHuJCIVYnFRX6cvZkwkRbS06.jpg")
+# Film.find_by(title: "Past Lives").update(film_backdrop: "https://image.tmdb.org/t/p/original/iJONcj9JxINueHtfvuXmQ4ddPnD.jpg")
+# Film.find_by(title: "Her").update(film_backdrop: "https://image.tmdb.org/t/p/original/zxttikp0SNEtF4vWsg70Vs6McFi.jpg")
+# Film.find_by(title: "Lady Bird").update(film_backdrop: "https://image.tmdb.org/t/p/original/2ByWxoMbfE3pxztCJn5qTJ5Ui2Y.jpg")
+# Film.find_by(title: "Frances Ha").update(film_backdrop: "https://image.tmdb.org/t/p/original/tKRUCk2yARbAADLwwwrir6F5gpa.jpg")
+# Film.find_by(title: "The Wolf of Wall Street").update(film_backdrop: "https://image.tmdb.org/t/p/original/yFQacHg8Ay8B3UG3rSYFhmcA4h5.jpg")
+# Film.find_by(title: "Taxi Driver").update(film_backdrop: "https://image.tmdb.org/t/p/original/5MVSXJieOhbyZudCnV1H4YJpfPV.jpg")
+# Film.find_by(title: "Pulp Fiction").update(film_backdrop: "https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg")
+# Film.find_by(title: "Inglorious Basterds").update(film_backdrop: "https://image.tmdb.org/t/p/original/1Jpkm9qZcsT0mSyVXgs4VlGjPNI.jpg")
+# Film.find_by(title: "Saving Private Ryan").update(film_backdrop: "https://image.tmdb.org/t/p/original/pNHv41t8Im8wlwgdzMK9I8WpuBZ.jpg")
+# Film.find_by(title: "Everything Everywhere All At Once").update(film_backdrop: "https://image.tmdb.org/t/p/original/fIwiFha3WPu5nHkBeMQ4GzEk0Hv.jpg")
+# Film.find_by(title: "Blade Runner 2049").update(film_backdrop: "https://image.tmdb.org/t/p/original/9AU3kxNMM6AGofeC1uOtm4etsNj.jpg")
+# Film.find_by(title: "Catch Me If You Can").update(film_backdrop: "https://image.tmdb.org/t/p/original/z8cdtRlW9KvZebK5HXm5lOSoVwt.jpg")
+# Film.find_by(title: "Good Will Hunting").update(film_backdrop: "https://image.tmdb.org/t/p/original/ybiI3C3rxjulLkuNt3YSsxi3ChT.jpg")

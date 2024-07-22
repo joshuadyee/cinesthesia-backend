@@ -18,6 +18,7 @@ class FilmsController < ApplicationController
       runtime: params[:runtime],
       logline: params[:logline],
       film_poster: params[:film_poster],
+      film_backdrop: params[:film_backdrop],
       mpa_rating: params[:mpa_rating],
       director_id: params[:director_id] 
     )
@@ -35,6 +36,7 @@ class FilmsController < ApplicationController
     @film.runtime = params[:runtime] || @film.runtime
     @film.logline = params[:logline] || @film.logline
     @film.film_poster = params[:film_poster] || @film.film_poster
+    @film.film_backdrop = params[:film_backdrop] || @film.film_backdrop
     @film.mpa_rating = params[:mpa_rating] || @film.mpa_rating
     @film.director_id = params[:director_id] || @film.director_id
 
