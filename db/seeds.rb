@@ -96,6 +96,157 @@
 #   film_poster: "https://movies.universalpictures.com/media/06-opp-dm-mobile-banner-1080x745-now-pl-f01-071223-64bab982784c7-1.jpg",
 #   mpa_rating: "R",
 # )
+# Film.create!(
+#   title: "Rise of the Planet of the Apes",
+#   year: 2011,
+#   runtime: 105,
+#   logline: "A substance designed to help the brain repair itself gives advanced intelligence to a chimpanzee who leads an ape uprising.",
+#   film_poster: "https://m.media-amazon.com/images/I/71pHMsr1wXL._AC_UF894,1000_QL80_.jpg",
+#   mpa_rating: "PG-13",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/xDpa4rl47if5ixG1VRmzHErzy8h.jpg",
+#   director_id: 27,
+# )
+# Film.create(
+#   title: "Dawn of the Planet of the Apes",
+#   year: 2014,
+#   runtime: 130,
+#   logline: "A growing nation of genetically evolved apes led by Caesar is threatened by a band of human survivors of the devastating virus unleashed a decade earlier.",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/nIcZlG4DuAinlEkUzSIEmXy3F5v.jpg",
+#   mpa_rating: "PG-13",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/4TFCA5Lm5miseV3Wy02yxurEQL9.jpg",
+#   director_id: 19,
+# )
+# Film.create(
+#   title: "War for the Planet of the Apes",
+#   year: 2017,
+#   runtime: 140,
+#   logline: "After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind.",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/mMA1qhBFgZX8O36qPPTC016kQl1.jpg",
+#   mpa_rating: "PG-13",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/w22CTHxmdAsUrXRbCQt4gOSOD6E.jpg",
+#   director_id: 19,
+# )
+# Film.create(
+#   title: "The Batman",
+#   year: 2022,
+#   runtime: 176,
+#   logline: "When the Riddler, a sadistic serial killer, begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/seyWFgGInaLqW7nOZvu0ZC95rtx.jpg",
+#   mpa_rating: "PG-13",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/IYUD7rAIXzBM91TT3Z5fILUS7n.jpg",
+#   director_id: 19,
+# )
+# Film.create(
+#   title: "The Dark Knight",
+#   year: 2008,
+#   runtime: 152,
+#   logline: "When the menace known as The Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+#   mpa_rating: "PG-13",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/pjyzrh1bdv1UTpDRHvM850TJAmT.jpg",
+#   director_id: 1,
+# )
+# Film.create(
+#   title: "The Dark Knight Rises",
+#   year: 2012,
+#   runtime: 164,
+#   logline: "Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent's crimes to protect the late attorney's reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham's finest. The Dark Knight resurfaces to protect a city that has branded him an enemy.",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg",
+#   mpa_rating: "PG-13",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/uKhaDQWqLwo9CW8RJfdnDhSmii8.jpg",
+#   director_id: 1,
+# )
+# Film.create(
+#   title: "Batman Begins",
+#   year: 2005,
+#   runtime: 140,
+#   logline: "Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City. Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman.",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/b1V6Qp0xcNoxrpXu9tKhJ2PoYEW.jpg",
+#   mpa_rating: "PG-13",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/zYDjcLWhQWm0l3Cjdsc5jbepzHR.jpg",
+#   director_id: 1,
+# )
+# Film.create(
+#   title: "Rush Hour",
+#   year: 1998,
+#   runtime: 98,
+#   logline: "When Hong Kong Inspector Lee is summoned to Los Angeles to investigate a kidnapping, the FBI doesn't want any outside help and assigns cocky LAPD Detective James Carter to distract Lee from the case. Not content to watch the action from the sidelines, Lee and Carter form an unlikely partnership and investigate the case themselves.",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/nwPhAsfnb7f46bZkWLG7IRP5HXr.jpg",
+#   mpa_rating: "PG-13",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/4nMEI2ANe3YB22u18xbHXZOLVIy.jpg",
+#   director_id: 26,
+# )
+# Film.create(
+#   title: "Rush Hour 2",
+#   year: 2001,
+#   runtime: 90,
+#   logline: "It's vacation time for Det. James Carter and he finds himself alongside Det. Lee in Hong Kong wishing for more excitement. While Carter wants to party and meet the ladies, Lee is out to track down a Triad gang lord who may be responsible
+#   for killing his father.",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/aBQf2vMiCINeVC9v6BGVYKXurTh.jpg",
+#   mpa_rating: "PG-13",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/oqgDX4uet0tgxepJNUbQW6RzKlz.jpg",
+#   director_id: 26,
+# )
+# Film.create(
+#   title: "Rush Hour 3",
+#   year: 2007,
+#   runtime: 91,
+#   logline: "After a botched assassination attempt, the mismatched duo finds themselves in Paris, struggling to retrieve a precious list of names, as the murderous crime syndicate's henchmen try their best to stop them. Once more, Lee and Carter must fight their way through dangerous gangsters; however, this time, the past has come back to haunt Lee. Will the boys get the job done once and for all?",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/rZ7IxJlPhNNJ6Rn8z1rzsXuA70P.jpg",
+#   mpa_rating: "PG-13",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/spsh0iJSAD7LJFkefjDcCZAyzUx.jpg",
+#   director_id: 26,
+# )
+# Film.create(
+#   title: "The Matrix",
+#   year: 1999,
+#   runtime: 136,
+#   logline: "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+#   mpa_rating: "R",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/oCkOhekO65sH5o3UnnWPStYHEnv.jpg",
+#   director_id: 28,
+# )
+# Film.create(
+#   title: "The Lord of the Rings: The Fellowship of the Ring",
+#   year: 2001,
+#   runtime: 178,
+#   logline: "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+#   mpa_rating: "PG-13",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/arZzjU9SV8ZT3wc0tNHobEZdiPZ.jpg",
+#   director_id: 20,
+# )
+# Film.create(
+#   title: "The Lord of the Rings: The Two Towers",
+#   year: 2002,
+#   runtime: 179,
+#   logline: "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+#   mpa_rating: "PG-13",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/jdleZMBQOj93qoGVNCNbCZxGxdH.jpg",
+#   director_id: 20,
+# )
+# Film.create(
+#   title: "The Lord of the Rings: The Return of the King",
+#   year: 2003,
+#   runtime: 201,
+#   logline: "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil is the Ring itself--as it moves ever closer to the Cracks of Doom, where it must be destroyed forever...",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+#   mpa_rating: "PG-13",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/9xOmYwIKLX8pTlDaLKdrvkao8Ju.jpg",
+#   director_id: 20,
+# )
+# Film.create(
+#   title: "The Shawshank Redemption",
+#   year: 1994,
+#   runtime: 142,
+#   logline: "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+#   film_poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+#   mpa_rating: "R",
+#   film_backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/wPU78OPN4BYEgWYdXyg0phMee64.jpg",
+#   director_id: 21,
+# )
 
 
 #     # Genre Data
@@ -144,6 +295,16 @@
 # Director.create!(name: "Yorgos Lanthimos")
 # Director.create!(name: "Steven Spielberg")
 # Director.create!(name: "Sean Durkin")
+# Director.create!(name: "Matt Reeves")
+# Director.create!(name: "Peter Jackson")
+# Director.create!(name: "Frank Darabont")
+# Director.create!(name: "David Fincher")
+# Director.create!(name: "David Lynch")
+# Director.create!(name: "Stanley Kubrick")
+# Director.create!(name: "Spike Lee")
+# Director.create!(name: "Brett Ratner")
+# Director.create!(name: "Rupert Wyatt")
+# Director.create!(name: "Lana Wachowski, Lilly Wachowski")
 
 
 #     # Cast Data
@@ -293,3 +454,4 @@
 # Film.find_by(title: "Blade Runner 2049").update(film_backdrop: "https://image.tmdb.org/t/p/original/9AU3kxNMM6AGofeC1uOtm4etsNj.jpg")
 # Film.find_by(title: "Catch Me If You Can").update(film_backdrop: "https://image.tmdb.org/t/p/original/z8cdtRlW9KvZebK5HXm5lOSoVwt.jpg")
 # Film.find_by(title: "Good Will Hunting").update(film_backdrop: "https://image.tmdb.org/t/p/original/ybiI3C3rxjulLkuNt3YSsxi3ChT.jpg")
+# Film.find_by(title: "Gladiator").update(film_backdrop: "https://image.tmdb.org/t/p/original/hND7xAaxxBgaIspp9iMsaEXOSTz.jpg")
